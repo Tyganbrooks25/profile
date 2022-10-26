@@ -1,0 +1,49 @@
+body{
+  background-color: grey; font-weight: 100;
+  font-family: system-ui; font-size:25px; line-height: 30px
+
+}
+
+.container {
+  background :white; border :black; border-radius: 20px; box-shadow: grey;
+    width: 1400px;   /* This sets the width */
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+
+.card{ background :white; border :black; border-radius: 20px; box-shadow: grey}
+
+h1 {
+  padding-top:20px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+    font-family: papyrus;
+  }
+
+    h2 {
+      color: black;
+      font-size: 20px;
+        font-family:Arial}
+
+        .img-circle {
+          border-radius: 50%;
+          display: block;
+  margin-left: auto;
+  margin-right: auto;
+        }
+
+        .text-center {
+          text-align: center;
+        }
+
+        .card-white {
+          background: white;
+          padding: 30px;
+          border: 1px solid lightgrey;
+        }
+        @media (max-width: 960px) {
+          /* For a screen < 960px, this CSS will be read */
+          .container {
+            width: 700px;
+          }
+        }
